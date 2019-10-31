@@ -1,0 +1,9 @@
+---
+- id: go-imports
+  name: Run goimports against go files
+  entry: run-go-imports.sh
+  types:
+  - go
+  language: script
+  description: >-
+    Runs `goimports` on go files and write result to source file.
